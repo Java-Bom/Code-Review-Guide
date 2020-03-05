@@ -1,8 +1,6 @@
-package com.javabom.sample.magicnumber.tobe;
+package com.javabom.sample.review1.magicnumber.asis;
 
 public class Noise {
-    private static final double BREATH_NOISE = 10.0;
-
     private final double decibel;
 
     public Noise(double decibel) {
@@ -11,7 +9,7 @@ public class Noise {
     }
 
     private void validate(double decibel) {
-        if (decibel < BREATH_NOISE) {
+        if (decibel < 10.0) {
             throw new IllegalArgumentException();
         }
     }
